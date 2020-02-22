@@ -1,0 +1,9 @@
+C:\Users\Both\source\repos\game\platform_game\bin\Debug\platform_game.exe.config
+C:\Users\Both\source\repos\game\platform_game\bin\Debug\platform_game.exe
+C:\Users\Both\source\repos\game\platform_game\bin\Debug\platform_game.pdb
+C:\Users\Both\source\repos\game\platform_game\obj\Debug\platform_game.csprojAssemblyReference.cache
+C:\Users\Both\source\repos\game\platform_game\obj\Debug\platform_game.Form1.resources
+C:\Users\Both\source\repos\game\platform_game\obj\Debug\platform_game.Properties.Resources.resources
+C:\Users\Both\source\repos\game\platform_game\obj\Debug\platform_game.csproj.GenerateResource.cache
+C:\Users\Both\source\repos\game\platform_game\obj\Debug\platform_game.exe
+C:\Users\Both\source\repos\game\platform_game\obj\Debug\platform_game.pdb
