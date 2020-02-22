@@ -71,19 +71,19 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form61.cs">
+    <Compile Include="Form4.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form61.Designer.cs">
-      <DependentUpon>Form61.cs</DependentUpon>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
     </Compile>
     <Compile Include="Input.cs" />
-    <Compile Include="Pacman7.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Pacman7.designer.cs">
-      <DependentUpon>Pacman7.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Settings.cs" />
@@ -99,11 +99,11 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form61.resx">
-      <DependentUpon>Form61.cs</DependentUpon>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Pacman7.resx">
-      <DependentUpon>Pacman7.cs</DependentUpon>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -192,13 +192,22 @@
     <None Include="Resources\zxc.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\bird1.png" />
+    <None Include="Resources\bird2.png" />
     <Content Include="Resources\cccc.gif" />
     <Content Include="Resources\down.gif" />
+    <None Include="Resources\down1.gif" />
+    <None Include="Resources\ground2.png" />
     <Content Include="Resources\Left.gif" />
+    <None Include="Resources\Left1.gif" />
     <Content Include="Resources\pink_guy.gif" />
+    <None Include="Resources\pipe1.png" />
+    <None Include="Resources\pipedown1.png" />
     <Content Include="Resources\red_guy.gif" />
     <Content Include="Resources\Right.gif" />
+    <None Include="Resources\Right1.gif" />
     <Content Include="Resources\Up.gif" />
+    <None Include="Resources\Up1.gif" />
     <Content Include="Resources\yellow_guy.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

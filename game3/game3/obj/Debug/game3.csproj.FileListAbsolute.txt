@@ -12,3 +12,17 @@ C:\Users\Com\source\repos\game3\game3\obj\Debug\game3.Form3.resources
 C:\Users\Com\source\repos\game3\game3\obj\Debug\game3.Form10.resources
 C:\Users\Com\source\repos\game3\game3\obj\Debug\game3.Form61.resources
 C:\Users\Com\source\repos\game3\game3\obj\Debug\game3.Pacman7.resources
+C:\Users\Both\Documents\projact_game_C#\projact_game_c-\game3\game3\bin\Debug\game3.exe.config
+C:\Users\Both\Documents\projact_game_C#\projact_game_c-\game3\game3\bin\Debug\game3.exe
+C:\Users\Both\Documents\projact_game_C#\projact_game_c-\game3\game3\bin\Debug\game3.pdb
+C:\Users\Both\Documents\projact_game_C#\projact_game_c-\game3\game3\obj\Debug\game3.csprojAssemblyReference.cache
+C:\Users\Both\Documents\projact_game_C#\projact_game_c-\game3\game3\obj\Debug\game3.Form10.resources
+C:\Users\Both\Documents\projact_game_C#\projact_game_c-\game3\game3\obj\Debug\game3.Form2.resources
+C:\Users\Both\Documents\projact_game_C#\projact_game_c-\game3\game3\obj\Debug\game3.Form3.resources
+C:\Users\Both\Documents\projact_game_C#\projact_game_c-\game3\game3\obj\Debug\game3.Form1.resources
+C:\Users\Both\Documents\projact_game_C#\projact_game_c-\game3\game3\obj\Debug\game3.Properties.Resources.resources
+C:\Users\Both\Documents\projact_game_C#\projact_game_c-\game3\game3\obj\Debug\game3.csproj.GenerateResource.cache
+C:\Users\Both\Documents\projact_game_C#\projact_game_c-\game3\game3\obj\Debug\game3.exe
+C:\Users\Both\Documents\projact_game_C#\projact_game_c-\game3\game3\obj\Debug\game3.pdb
+C:\Users\Both\Documents\projact_game_C#\projact_game_c-\game3\game3\obj\Debug\game3.Form4.resources
+C:\Users\Both\Documents\projact_game_C#\projact_game_c-\game3\game3\obj\Debug\game3.Form5.resources

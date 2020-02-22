@@ -33,13 +33,13 @@
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -53,9 +53,10 @@
             this.button1.BackColor = System.Drawing.Color.Gold;
             this.button1.Font = new System.Drawing.Font("Showcard Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.button1.Location = new System.Drawing.Point(82, 142);
+            this.button1.Location = new System.Drawing.Point(109, 175);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(129, 34);
+            this.button1.Size = new System.Drawing.Size(172, 42);
             this.button1.TabIndex = 7;
             this.button1.Text = "StartGame";
             this.button1.UseVisualStyleBackColor = false;
@@ -66,9 +67,10 @@
             this.button2.BackColor = System.Drawing.Color.Gold;
             this.button2.Font = new System.Drawing.Font("Showcard Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.button2.Location = new System.Drawing.Point(82, 323);
+            this.button2.Location = new System.Drawing.Point(109, 398);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(108, 35);
+            this.button2.Size = new System.Drawing.Size(144, 43);
             this.button2.TabIndex = 8;
             this.button2.Text = "StartGame";
             this.button2.UseVisualStyleBackColor = false;
@@ -79,9 +81,10 @@
             this.button3.BackColor = System.Drawing.Color.Gold;
             this.button3.Font = new System.Drawing.Font("Showcard Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.button3.Location = new System.Drawing.Point(651, 142);
+            this.button3.Location = new System.Drawing.Point(868, 175);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(111, 32);
+            this.button3.Size = new System.Drawing.Size(148, 39);
             this.button3.TabIndex = 9;
             this.button3.Text = "StartGame";
             this.button3.UseVisualStyleBackColor = false;
@@ -92,31 +95,50 @@
             this.button4.BackColor = System.Drawing.Color.Gold;
             this.button4.Font = new System.Drawing.Font("Showcard Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.button4.Location = new System.Drawing.Point(651, 323);
+            this.button4.Location = new System.Drawing.Point(868, 398);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(111, 35);
+            this.button4.Size = new System.Drawing.Size(148, 43);
             this.button4.TabIndex = 10;
             this.button4.Text = "StartGame";
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
             this.button5.BackColor = System.Drawing.Color.Gold;
             this.button5.Font = new System.Drawing.Font("Showcard Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.ForeColor = System.Drawing.Color.DarkSlateGray;
-            this.button5.Location = new System.Drawing.Point(375, 325);
+            this.button5.Location = new System.Drawing.Point(500, 400);
+            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(97, 33);
+            this.button5.Size = new System.Drawing.Size(129, 41);
             this.button5.TabIndex = 11;
             this.button5.Text = "StartGame";
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // label1
+            // 
+            this.label1.AllowDrop = true;
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Lavender;
+            this.label1.Cursor = System.Windows.Forms.Cursors.Default;
+            this.label1.Font = new System.Drawing.Font("MV Boli", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(408, 63);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(302, 79);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Game.ITC";
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::game3.Properties.Resources.qwe;
-            this.pictureBox2.Location = new System.Drawing.Point(72, 28);
+            this.pictureBox2.Location = new System.Drawing.Point(96, 34);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(151, 108);
+            this.pictureBox2.Size = new System.Drawing.Size(201, 133);
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
@@ -124,9 +146,10 @@
             // pictureBox6
             // 
             this.pictureBox6.Image = global::game3.Properties.Resources.GDF;
-            this.pictureBox6.Location = new System.Drawing.Point(349, 203);
+            this.pictureBox6.Location = new System.Drawing.Point(465, 250);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(151, 114);
+            this.pictureBox6.Size = new System.Drawing.Size(201, 140);
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
@@ -134,9 +157,10 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = global::game3.Properties.Resources.zxc;
-            this.pictureBox5.Location = new System.Drawing.Point(72, 215);
+            this.pictureBox5.Location = new System.Drawing.Point(96, 265);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(151, 102);
+            this.pictureBox5.Size = new System.Drawing.Size(201, 126);
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
@@ -146,18 +170,21 @@
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.pictureBox4.Cursor = System.Windows.Forms.Cursors.Default;
             this.pictureBox4.Image = global::game3.Properties.Resources.sa;
-            this.pictureBox4.Location = new System.Drawing.Point(631, 215);
+            this.pictureBox4.Location = new System.Drawing.Point(841, 265);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(149, 102);
+            this.pictureBox4.Size = new System.Drawing.Size(198, 125);
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // pictureBox3
             // 
             this.pictureBox3.Image = global::game3.Properties.Resources.AS;
-            this.pictureBox3.Location = new System.Drawing.Point(631, 28);
+            this.pictureBox3.Location = new System.Drawing.Point(841, 34);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(149, 110);
+            this.pictureBox3.Size = new System.Drawing.Size(199, 135);
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
@@ -168,29 +195,17 @@
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Image = global::game3.Properties.Resources.mnn;
             this.pictureBox1.Location = new System.Drawing.Point(1, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(820, 389);
+            this.pictureBox1.Size = new System.Drawing.Size(1093, 479);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // label1
-            // 
-            this.label1.AllowDrop = true;
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Lavender;
-            this.label1.Cursor = System.Windows.Forms.Cursors.Default;
-            this.label1.Font = new System.Drawing.Font("MV Boli", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(306, 51);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(247, 63);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Game.ITC";
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(817, 389);
+            this.ClientSize = new System.Drawing.Size(1089, 479);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
@@ -203,6 +218,7 @@
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Game";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

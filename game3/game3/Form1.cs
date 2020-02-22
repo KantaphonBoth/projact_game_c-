@@ -14,7 +14,9 @@ namespace game3
     {
         private Form2 form1;
         private Form3 form2;
-        private Form10 form;
+        private Form10 form3;
+        private Form4 form4;
+        private Form5 form5;
        
 
         public Form1()
@@ -49,19 +51,38 @@ namespace game3
 
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            form = new Form10();
-            form.Show();
+            form3 = new Form10();
+            form3.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            form = new Form10();
-            form.Show();
+            form3 = new Form10();
+            form3.Show();
         }
 
         private void pictureBox6_Click(object sender, EventArgs e)
         {
+            form4 = new Form4();
+            form4.Show();
+        }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            form4 = new Form4();
+            form4.Show();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            form5 = new Form5();
+            form5.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            form5 = new Form5();
+            form5.Show();
         }
     }
 }
