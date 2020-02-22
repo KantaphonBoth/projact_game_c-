@@ -1,0 +1,9 @@
+C:\Users\Both\source\repos\missPACMAN\missPACMAN\obj\Debug\missPACMAN.csprojAssemblyReference.cache
+C:\Users\Both\source\repos\missPACMAN\missPACMAN\obj\Debug\missPACMAN.Properties.Resources.resources
+C:\Users\Both\source\repos\missPACMAN\missPACMAN\obj\Debug\missPACMAN.csproj.GenerateResource.cache
+C:\Users\Both\source\repos\missPACMAN\missPACMAN\bin\Debug\missPACMAN.exe.config
+C:\Users\Both\source\repos\missPACMAN\missPACMAN\bin\Debug\missPACMAN.exe
+C:\Users\Both\source\repos\missPACMAN\missPACMAN\bin\Debug\missPACMAN.pdb
+C:\Users\Both\source\repos\missPACMAN\missPACMAN\obj\Debug\missPACMAN.exe
+C:\Users\Both\source\repos\missPACMAN\missPACMAN\obj\Debug\missPACMAN.pdb
+C:\Users\Both\source\repos\missPACMAN\missPACMAN\obj\Debug\missPACMAN.Pacman1.resources
